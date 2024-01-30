@@ -17,6 +17,7 @@ const Listar = ({estado,setIdmetro}) => {
                     setRutas(respuesta)
                     console.log(respuesta)
                     console.log("petición");
+                    setIdmetro(0)
                 }
                 catch (error) {
                     console.log(error);
